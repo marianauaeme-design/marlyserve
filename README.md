@@ -1,4 +1,4 @@
-# 🌮 Barbacoa Tío R — Sistema POS
+# marlyserve — Sistema POS
 
 App de punto de venta para negocio de barbacoa.
 Construida con Streamlit. Base de datos en Excel (`.xlsx`).
