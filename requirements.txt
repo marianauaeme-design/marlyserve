@@ -1,0 +1,7 @@
+streamlit>=1.35.0
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Para impresión térmica (instalar según conexión):
+# python-escpos[bt]    ← Bluetooth
+# python-escpos[usb]   ← USB
