@@ -38,13 +38,8 @@ def add_menu_item(cat, nombre, precio):
 # ─── MESEROS ─────────────────────────────────────────────────────────────────
 
 def get_meseros():
-    # Forzamos la URL directamente aquí para evitar el error de SpreadsheetNotFound
-    url = "https://docs.google.com/spreadsheets/d/1VKd9rOI1CUEmBbODKEHH4-MgobheL5K_zDoQmlsIJA/edit"
-    
-    # Añadimos la URL al comando read
-    df = conn.read(spreadsheet=url, worksheet="Meseros")
-    
-    meseros = []
+    df = conn.read(worksheet="Meseros")
+     meseros = []
     for _, row in df.iterrows():
         meseros.append({
             "nombre": row['Nombre'], 
