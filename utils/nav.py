@@ -14,7 +14,7 @@ def render_nav():
         display:flex;align-items:center;gap:12px;margin-bottom:1rem;'>
         <div style='width:36px;height:36px;background:rgba(255,255,255,0.25);border-radius:50%;
             display:flex;align-items:center;justify-content:center;color:white;font-weight:600;font-size:13px;'>{ini}</div>
-        <span style='color:white;font-size:17px;font-weight:600;flex:1;'>Barbacoa Tío R</span>
+        <span style='color:white;font-size:17px;font-weight:600;flex:1;'>MarlyServe</span>
         <span style='color:rgba(255,255,255,0.8);font-size:13px;'>{datetime.now().strftime('%H:%M')} · {nombre}</span>
     </div>
     """, unsafe_allow_html=True)
