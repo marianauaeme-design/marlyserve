@@ -14,7 +14,7 @@ Para USB:
 
 from datetime import datetime
 
-NEGOCIO = "BARBACOA TÍO Gor"
+NEGOCIO = "MarlyServe"
 DIRECCION = "Tu dirección aquí"
 TEL = "Tel: 000-000-0000"
 TICKET_WIDTH = 32  # caracteres para 58mm
